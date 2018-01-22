@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document>
+	<library imageRootPath="icons" product="DMT" symbol="dmtjeeantdiscoverer" version="1.0"
+	         dependencies="delivery:2.6;dmtdevjeetechno:1.4">
+		
+        <entity symbol="JeeAntDiscoverer" baseEntity="dmtdevjeetechno.J2EESourcesBaseDiscoverer" label="Ant Java project" viewForm="subForm">
+            <field length="500" override="true" symbol="javaClassName" valueEntity="system.String">
+                <value formula="true">'com.castsoftware.dmt.discoverer.jee.ant.JeeAntProjectsDiscoverer'</value>
+            </field>
+            <field override="true" symbol="projectsFilesPatterns">
+                <value formula="true">'build.xml'</value>
+            </field>
+            <field override="true" symbol="resourceProjectsPatterns">
+                <value formula="true">'build.properties'</value>
+            </field>
+        </entity>
+
+	</library>
+	
+	<conversion requires="" provides="dmtjeeantdiscoverer:1.0">
+		<!-- Library installation -->
+	</conversion>	
+</document>

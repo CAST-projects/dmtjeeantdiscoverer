@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>com.castsoftware.dmtjeeantsdiscoverer</id>
+    <version>_VERSION_-build_BUILDNO_</version>
+    <title>JEE Ant Discoverer</title>
+    <authors>CAST Product</authors>
+    <owners>CAST</owners>
+    <licenseUrl>https://help.castsoftware.com/hc/en-us/articles/212612648-AIP-Extension-License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://doc.castsoftware.com/display/DOCEXT/JEE+Ant+Discoverer+1.0</projectUrl>
+    <iconUrl>https://github.com/CAST-projects/dmtjeeantdiscoverer/raw/master/com_castsoftware_dmtjeeantdiscoverer.png</iconUrl>
+    <releaseNotes>http://doc.castsoftware.com/display/DOCEXT/JEE+Ant+Discoverer+1.0+-+Release+Notes</releaseNotes>
+    <description>Support for discovering Ant projects. It should be used when an Ant script is used for building the application and when no IDE project is provided. The project files (build.xml and build.properties) must be delivered with the source code.</description>
+    <dependencies>
+      <dependency id="CAIP" version="8.0.0"/>
+    </dependencies>
+		<tags>DMT DISCOVER JEE CAIP8.0</tags>		
+ </metadata>
+  <files>
+    <file src="TOOLS\**" target="TOOLS" />    
+    <file src="JEE-Ant Technology Extension Version.txt" target="JEE-Ant Technology Extension Version.txt" />    
+    <file src="readme.html" target="readme.html" />    
+  </files>  
+</package>
